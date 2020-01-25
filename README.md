@@ -47,14 +47,7 @@ When the programm is running you can use the following keys to interact with it:
         . D --> Put inside laser
         . Z --> Rotate head right
         . X --> Rotate head left
-
-        . E --> Increase arms speed
-        . R --> Decrease arms speed
-        . T --> Increase laser speed
-        . Y --> Decrease laser speed
-        . U --> Increase head speed
-        . I --> Decrease head speed
-
+        
     - M --> Change skin
         . F7 --> Increase skin bright
         . F8 --> Decrease skin bright
