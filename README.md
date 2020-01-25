@@ -1,51 +1,77 @@
 # 3D-Android-OpenGL
 An animated Android (based on the famous logo of the "Android" brand) with a lightsaber in his left hand. It is programmed in C++ using the OpenGL primitives.
 
+### Installation and Execution 🔧
 
+Download the project. Then compile and execute it using
 
-Explicacion de teclas para mostrar las diferentes figuras:
+```
+make
+```
 
-    - 1 --> Mostrar figura con puntos
-    - 2 --> Mostrar figura con aristas
-    - 3 --> Mostrar figura solida
-    - 4 --> Mostrar figura en modo ajedrez
-    - 5 --> Mostrar figura con iluminado plano
-    - 6 --> Mostrar figura con iluminado suave (Gouraud)
+## Execution Commands ⚙️
+
+When the programm is running you can use the following keys to interact with it:
+
+```
+    - 1 --> Draw the selected figure using points
+    - 2 --> Draw the selected figure using edges
+    - 3 --> Draw the selected figure in solid way
+    - 4 --> Draw the selected figure in chess way
+    - 5 --> Draw the selected figure with flat lit
+    - 6 --> Draw the selected figure with Gouraud lit
     
-    - 7 --> Encender/Apagar primera luz
-        . F5 --> Rotar/Parar de rotar primera luz
+    - 7 --> Turn On/Off the first light
+        . F5 --> Rotate/Stop rotating the first light
 
-    - 8 --> Encender/Apagar segunda luz
-        . F6 --> Rotar/Parar de rotar segunda luz
+    - 8 --> Turn On/Off the second light
+        . F6 --> Rotate/Stop rotating the second light
 
-    - P --> Piramide
-    - C --> Cubo
-    - F --> Cono
-    - G --> Cilindro
-    - H --> Esfera
-    - O --> Objeto Ply
-    - N --> Rotacion
-    - B --> Articulado_Tanque
-        . F1 --> Giro tubo hacia arriba
-        . F2 --> Giro tubo hacia abajo
-        . F3 --> Giro torreta derecha
-        . F4 --> Giro torreta izquierda
+    - P --> Pyramid
+    - C --> Cube
+    - F --> Cone
+    - G --> Cylinder
+    - H --> Sphere
+    - O --> Ply Object
+    - N --> Object built by rotation
+    - B --> Tank
+        . F1 --> Turn tube up
+        . F2 --> Turn tube down
+        . F3 --> Turn tube right
+        . F4 --> Turn tube left
     
     - A --> ANDROID
-        . Q --> Mover brazos hacia arriba
-        . W --> Mover brazos hacia abajo
-        . S --> Sacar laser
-        . D --> Meter laser
-        . Z --> Rotar cabeza hacia la derecha
-        . X --> Rotar cabeza hacia la izquierda
+        . Q --> Move arms up
+        . W --> Move arms down
+        . S --> Take out laser
+        . D --> Put inside laser
+        . Z --> Rotate head right
+        . X --> Rotate head left
 
-        . E --> Aumentar velocidad brazos
-        . R --> Disminuir velocidad brazos
-        . T --> Aumentar velocidad laser
-        . Y --> Disminuir velocidad laser
-        . U --> Aumentar velocidad cabeza
-        . I --> Disminuir velocidad cabeza
+        . E --> Increase arms speed
+        . R --> Decrease arms speed
+        . T --> Increase laser speed
+        . Y --> Decrease laser speed
+        . U --> Increase head speed
+        . I --> Decrease head speed
 
-    - M --> Cambiar material
-        . F7 --> Aumentar brillo material
-        . F8 --> Disminuir brillo material
+    - M --> Change skin
+        . F7 --> Increase skin bright
+        . F8 --> Decrease skin bright
+
+```
+
+## Build with 🛠️
+
+* [C++](http://www.cplusplus.com) 
+* [GNU](https://www.gnu.org) 
+* [OPENGL](https://www.opengl.org) 
+
+## Authors ✒️
+
+* **Juan Emilio Martínez Manjón** - *The entire project* - [Juane99](https://github.com/Juane99)
+
+
+## License 📄
+
+[LICENSE](LICENSE) 
