@@ -54,7 +54,7 @@ When the programm is running you can use the following keys to interact with it:
 
 ```
 
-## Build with 🛠️
+## Built with 🛠️
 
 * [C++](http://www.cplusplus.com) 
 * [GNU](https://www.gnu.org) 
